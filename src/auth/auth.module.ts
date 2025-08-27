@@ -9,7 +9,6 @@ import { JwtStrategy } from '@/auth/strategies/jwt.strategy';
     imports: [
         UsersModule,
         JwtModule.register({
-            // секрет и срок жизни можно не указывать — задаём при sign
             global: true,
         }),
     ],
