@@ -4,6 +4,9 @@
 # Contains all your dependencies
 node_modules
 
+# build
+dist/
+
 # Replace as required with your build location
 /build
 
